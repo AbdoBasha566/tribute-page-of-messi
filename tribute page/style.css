@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+html{
+    overflow-x: auto;
+}
+.container{
+    width:80%;
+    margin:0 auto;
+}
+/*************header*******************/
+header .messi-image img{
+    width:11.75em;
+    height: 15.6875em;
+}
+header {
+    display:flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+header .heading h1{
+    margin-top: 0;
+    font-size: 2.9em;
+    text-transform: capitalize;
+    font-family: 'Style Script', cursive;
+}
+
+.see{
+    display: flex;
+    flex-flow: column nowrap;
+}
+/****************end header*********************/
+/*************************images-section**************************/
+.images-section div img{
+    width:25em;
+    height: 13em;
+    margin-top: 1em;
+}
+.images-section{
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: space-between;
+}
+ul li{
+    margin-top:1em;
+}
+/*************************images-section**************************/
+
+@media screen and (max-width:1340px) {
+    .images-section{
+        display: flex;
+        flex-flow:column nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container{
+        width:100%;
+        margin:0 auto;
+    }
+    header{
+        text-align: center;
+    }
+  }
+  
